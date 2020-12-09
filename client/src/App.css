@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --primary-color: orange;
+  --secondary-color: #e76f51;
+}
+@import url('./Style/AuthStyle.css');
+@import url('./Style/IconLoading.css');
+@import url('./Style/Users.css');
+@import url('./Style/Contact.css');
+@import url('./Style/About.css');
+@import url('./Style/Home.css');
+@import url('./Style/AddQuestion.css');
+@import url('./Style/Questions.css');
+@import url('./Style/Navbar.css');
+@import url('./Style/ShowOne.css');
+@import url('./Style/Profile.css');
+.app {
+  /* margin-left: 200px;
+    margin-top: 85px !important; */
+  padding-left: 200px;
+  padding-top: 60px !important;
+  background-color: #fdf0ec;
+}
+/*========================================================================*/
+.userCode{
+  width: 100%;
+  text-align: left;
+  /* margin-left: 10%; */
+  max-height: 400px;
+  overflow: scroll;
+  margin-bottom: 1%;
+  border: 1px solid #fed2c6;
+}
+.userCode-question{
+  width: 100%;
+  text-align: left;
+  /* margin-left: 10%; */
+  max-height: 400px;
+  overflow: scroll;
+}
+/*========================================================================*/
+.delIcon{
+  width: 30px;
+  height: 50px;
+}
+/*========================================================================*/
+.comments{
+  display:grid;
+  grid-template-columns:auto auto ;
+  margin-bottom: 10%;
+  border: 1px dashed #fed2c6;
+}
+/*========================================================================*/
